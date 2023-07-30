@@ -192,7 +192,7 @@ img{
 }
 
 .nav__icon{
-  font-size: 1.2reem;
+  font-size: 1.2rem;
   margin-bottom: var(--mb-1);
 }
 
@@ -202,9 +202,73 @@ img{
 }
 
 /* Active menu link */
-
+.active-link{
+  color: var(--title-color);
+}
 
 /*========== HOME ==========*/
+.home{
+  position: relative;
+}
+.home__container{
+  gap: 3rem;
+}
+
+.home__data{
+  gap: .5rem;
+  text-align: center;
+}
+
+.home__img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.home__title{
+  font-size: var(--h1-font-size);;
+}
+.home__profession{
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.hhome__address{
+  gap: 1rem;
+
+}
+
+.home__information{
+  display: flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
+
+.home__icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
+
+.home__button-movil{
+  display: inline-block;
+  border: 2px solid var(--text-color);
+  color: var(--title-color);
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  transition: .3s;
+  font-weight: var(--font-medium);
+  margin-top: var(--mb-3);
+}
+
+.home__button-movil:hover{
+  background-color: var(--text-color);
+  color: var(--container-color);
+}
+
+
+
 
 
 /*========== SOCIAL ==========*/
